@@ -13,7 +13,7 @@ export default function SearchMovie() {
   let answer = useSelector((state) => state.transfer.movieName);
   let dispatch = useDispatch();
   
-  const API_KEY = process.env.REACT_APP_TMDB_API_KEY || "d5689bbae1737c3b9062e710a1909402";
+  const API_KEY = process.env.REACT_APP_API_KEY || "d5689bbae1737c3b9062e710a1909402";
 
   useEffect(() => {
     setSearchTerm(answer);

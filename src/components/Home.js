@@ -8,7 +8,7 @@ export default function Home() {
   const [upcomingMovies, setUpcomingMovies] = useState([]);
   const [topRatedMovies, setTopRatedMovies] = useState([]);
 
-  const API_KEY = process.env.REACT_APP_TMDB_API_KEY || "d5689bbae1737c3b9062e710a1909402";
+  const API_KEY = process.env.REACT_APP_API_KEY || "d5689bbae1737c3b9062e710a1909402";
 
   useEffect(() => {
     // Fetch Popular Movies

@@ -14,7 +14,7 @@ export default function SingleMovie() {
   let [showAllCast, setShowAllCast] = useState(false);
   let [apiAccessible, setApiAccessible] = useState(null);
 
-  const API_KEY = process.env.REACT_APP_TMDB_API_KEY || "d5689bbae1737c3b9062e710a1909402";
+  const API_KEY = process.env.REACT_APP_API_KEY || "d5689bbae1737c3b9062e710a1909402";
 
   // Check API accessibility on component mount
   useEffect(() => {

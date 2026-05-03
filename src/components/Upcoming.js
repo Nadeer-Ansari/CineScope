@@ -8,7 +8,7 @@ export default function Upcoming() {
   let [data, setdata] = useState([]);
   let [loading, setLoading] = useState(true);
   let [apiError, setApiError] = useState(null);
-  const API_KEY = process.env.REACT_APP_TMDB_API_KEY || "d5689bbae1737c3b9062e710a1909402";
+  const API_KEY = process.env.REACT_APP_API_KEY || "d5689bbae1737c3b9062e710a1909402";
 
   // Check API accessibility on component mount
   useEffect(() => {
